@@ -1,0 +1,30 @@
+{
+  "extensionName": {
+    "message": "AliEnhanced",
+    "description": "Name of the extension."
+  },
+  "extensionShortName": {
+    "message": "AE+",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "An AliExpress improvement to display product information.",
+    "description": "Description of the extension."
+  },
+  "extensionActionTitle": {
+    "message": "Enhance AliExpress.",
+    "description": "Action title of the extension."
+  },
+  "popupLang": {
+    "message": "en",
+    "description": "The HTML language attribute in the head section."
+  },
+  "popupTitle": {
+    "message": "PopUp | Enhance AliExpress",
+    "description": "The HTML title in the head section."
+  },
+  "popupTitleBody": {
+    "message": "Welcome to AliExpress Enhanced!",
+    "description": "The HTML title in the body section."
+  }
+}

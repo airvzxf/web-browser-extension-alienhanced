@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "AliMejorado",
+    "description": "Nombre de la extensión."
+  },
+  "extensionDescription": {
+    "message": "Una mejora de AliExpress para mostrar la información de los productos.",
+    "description": "Descripción de la extensión."
+  },
+  "extensionActionTitle": {
+    "message": "Mejora AliExpress.",
+    "description": "Título de acción de la extensión."
+  }
+}
