@@ -23,7 +23,7 @@
       "512": "assets/icons/logo-512.png",
       "1024": "assets/icons/logo-1024.png"
     },
-    "default_popup": "popup/index.html"
+    "default_popup": "ui/popup/index.html"
   },
   "author": "Israel Roldan",
   "homepage_url": "https://github.com/airvzxf/web-browser-extension-alienhanced",
@@ -36,5 +36,9 @@
     "scripts": [
       "background.js"
     ]
+  },
+  "options_ui": {
+    "open_in_tab": true,
+    "page": "ui/options/index.html"
   }
 }
