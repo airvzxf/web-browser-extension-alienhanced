@@ -11,20 +11,20 @@ document.querySelector("#xid").innerHTML = `
 `;
 
 function onOpened() {
-    console.log(`Options page opened`);
+    console.debug(`Options page opened`);
 }
 
 function onError(error) {
-    console.log(`Error: ${error}`);
+    console.debug(`Error: ${error}`);
 }
 
 document.querySelector("#opts").addEventListener(
     "click",
     () => {
         //browser.runtime.openOptionsPage()
-        console.log("Click on options button in the PopUp.")
+        console.debug("Click on options button in the PopUp.")
         let opening = browser.runtime.openOptionsPage();
-        console.log(opening)
+        console.debug(opening)
         opening.then(onOpened, onError);
     }
 );
