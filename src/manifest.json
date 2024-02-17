@@ -19,6 +19,12 @@
     "512": "assets/icons/logo-512.png",
     "1024": "assets/icons/logo-1024.png"
   },
+  "background": {
+    "type": "module",
+    "scripts": [
+      "background.js"
+    ]
+  },
   "action": {
     "default_title": "__MSG_extensionActionTitle__",
     "default_icon": {
@@ -30,12 +36,6 @@
       "1024": "assets/icons/logo-1024.png"
     },
     "default_popup": "ui/popup/index.html"
-  },
-  "background": {
-    "type": "module",
-    "scripts": [
-      "background.js"
-    ]
   },
   "options_ui": {
     "open_in_tab": true,
