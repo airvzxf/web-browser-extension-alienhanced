@@ -1,4 +1,3 @@
 browser.runtime.onInstalled.addListener(() => {
-    // browser.tabs.create({ url: "https://rovisoft.net" });
-    console.log("Background: browser.runtime.onInstalled")
+    console.debug("Background: browser.runtime.onInstalled")
 });
