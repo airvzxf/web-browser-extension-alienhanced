@@ -1,10 +1,16 @@
 {
   "manifest_version": 3,
   "version": "1.0.0",
-  "default_locale": "en-US",
   "name": "__MSG_extensionName__",
   "short_name": "__MSG_extensionShortName__",
   "description": "__MSG_extensionDescription__",
+  "author": "Israel Roldan",
+  "homepage_url": "https://github.com/airvzxf/web-browser-extension-alienhanced",
+  "developer": {
+    "name": "Israel Roldan",
+    "url": "https://github.com/airvzxf/web-browser-extension-alienhanced"
+  },
+  "default_locale": "en-US",
   "icons": {
     "16": "assets/icons/logo-16.png",
     "32": "assets/icons/logo-32.png",
@@ -24,12 +30,6 @@
       "1024": "assets/icons/logo-1024.png"
     },
     "default_popup": "ui/popup/index.html"
-  },
-  "author": "Israel Roldan",
-  "homepage_url": "https://github.com/airvzxf/web-browser-extension-alienhanced",
-  "developer": {
-    "name": "Israel Roldan",
-    "url": "https://github.com/airvzxf/web-browser-extension-alienhanced"
   },
   "background": {
     "type": "module",
