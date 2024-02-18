@@ -1,0 +1,1 @@
+console.debug("Content-Scripts: main.js");

@@ -40,5 +40,18 @@
   "options_ui": {
     "open_in_tab": true,
     "page": "ui/options/index.html"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.aliexpress.com/*"
+      ],
+      "js": [
+        "ui/content-scripts/main.js"
+      ],
+      "css": [
+        "ui/content-scripts/main.css"
+      ]
+    }
+  ]
 }
