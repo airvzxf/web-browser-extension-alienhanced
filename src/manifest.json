@@ -53,5 +53,6 @@
         "ui/content-scripts/main.css"
       ]
     }
-  ]
+  ],
+  "devtools_page": "ui/devtools/index.html"
 }
