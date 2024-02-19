@@ -12,12 +12,12 @@
   },
   "default_locale": "en-US",
   "icons": {
-    "16": "assets/icons/logo-16.png",
-    "32": "assets/icons/logo-32.png",
-    "64": "assets/icons/logo-64.png",
-    "128": "assets/icons/logo-128.png",
-    "512": "assets/icons/logo-512.png",
-    "1024": "assets/icons/logo-1024.png"
+    "16": "ui/assets/icons/logo-16.png",
+    "32": "ui/assets/icons/logo-32.png",
+    "64": "ui/assets/icons/logo-64.png",
+    "128": "ui/assets/icons/logo-128.png",
+    "512": "ui/assets/icons/logo-512.png",
+    "1024": "ui/assets/icons/logo-1024.png"
   },
   "background": {
     "type": "module",
@@ -28,12 +28,12 @@
   "action": {
     "default_title": "__MSG_extensionActionTitle__",
     "default_icon": {
-      "16": "assets/icons/logo-16.png",
-      "32": "assets/icons/logo-32.png",
-      "64": "assets/icons/logo-64.png",
-      "128": "assets/icons/logo-128.png",
-      "512": "assets/icons/logo-512.png",
-      "1024": "assets/icons/logo-1024.png"
+      "16": "ui/assets/icons/logo-16.png",
+      "32": "ui/assets/icons/logo-32.png",
+      "64": "ui/assets/icons/logo-64.png",
+      "128": "ui/assets/icons/logo-128.png",
+      "512": "ui/assets/icons/logo-512.png",
+      "1024": "ui/assets/icons/logo-1024.png"
     },
     "default_popup": "ui/popup/index.html"
   },
