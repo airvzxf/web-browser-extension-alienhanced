@@ -12,12 +12,12 @@
   },
   "default_locale": "en-US",
   "icons": {
-    "16": "ui/assets/icons/logo-16.png",
-    "32": "ui/assets/icons/logo-32.png",
-    "64": "ui/assets/icons/logo-64.png",
-    "128": "ui/assets/icons/logo-128.png",
-    "512": "ui/assets/icons/logo-512.png",
-    "1024": "ui/assets/icons/logo-1024.png"
+    "16": "assets/assets/icons/logo-16.png",
+    "32": "assets/assets/icons/logo-32.png",
+    "64": "assets/assets/icons/logo-64.png",
+    "128": "assets/assets/icons/logo-128.png",
+    "512": "assets/assets/icons/logo-512.png",
+    "1024": "assets/assets/icons/logo-1024.png"
   },
   "background": {
     "type": "module",
@@ -28,18 +28,18 @@
   "action": {
     "default_title": "__MSG_extensionActionTitle__",
     "default_icon": {
-      "16": "ui/assets/icons/logo-16.png",
-      "32": "ui/assets/icons/logo-32.png",
-      "64": "ui/assets/icons/logo-64.png",
-      "128": "ui/assets/icons/logo-128.png",
-      "512": "ui/assets/icons/logo-512.png",
-      "1024": "ui/assets/icons/logo-1024.png"
+      "16": "assets/assets/icons/logo-16.png",
+      "32": "assets/assets/icons/logo-32.png",
+      "64": "assets/assets/icons/logo-64.png",
+      "128": "assets/assets/icons/logo-128.png",
+      "512": "assets/assets/icons/logo-512.png",
+      "1024": "assets/assets/icons/logo-1024.png"
     },
-    "default_popup": "ui/popup/index.html"
+    "default_popup": "assets/popup/index.html"
   },
   "options_ui": {
     "open_in_tab": true,
-    "page": "ui/options/index.html"
+    "page": "assets/options/index.html"
   },
   "content_scripts": [
     {
@@ -47,12 +47,12 @@
         "*://*.aliexpress.com/*"
       ],
       "js": [
-        "ui/content-scripts/main.js"
+        "assets/content-scripts/main.js"
       ],
       "css": [
-        "ui/content-scripts/main.css"
+        "assets/content-scripts/main.css"
       ]
     }
   ],
-  "devtools_page": "ui/devtools/index.html"
+  "devtools_page": "assets/devtools/index.html"
 }
