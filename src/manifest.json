@@ -22,7 +22,7 @@
   "background": {
     "type": "module",
     "scripts": [
-      "background.js"
+      "assets/scripts/background.js"
     ]
   },
   "action": {
