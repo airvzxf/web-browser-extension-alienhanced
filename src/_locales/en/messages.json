@@ -1,11 +1,11 @@
 {
   "extensionName": {
-    "message": "AliEnhanced",
+    "message": "Ali-Enhanced",
     "description": "Name of the extension."
   },
   "extensionShortName": {
     "message": "AE+",
-    "description": "Name of the extension."
+    "description": "Short name of the extension."
   },
   "extensionDescription": {
     "message": "An AliExpress improvement to display product information.",
@@ -20,7 +20,7 @@
     "description": "The HTML language attribute in the head section."
   },
   "popupTitle": {
-    "message": "PopUp | Enhance AliExpress",
+    "message": "Pop Up | Enhance AliExpress",
     "description": "The HTML title in the head section."
   },
   "popupTitleBody": {

@@ -1,7 +1,11 @@
 {
   "extensionName": {
-    "message": "AliMejorado",
+    "message": "Ali-Mejorado",
     "description": "Nombre de la extensión."
+  },
+  "extensionShortName": {
+    "message": "AE+",
+    "description": "Nombre corto de la extensión."
   },
   "extensionDescription": {
     "message": "Una mejora de AliExpress para mostrar la información de los productos.",
@@ -10,5 +14,17 @@
   "extensionActionTitle": {
     "message": "Mejora AliExpress.",
     "description": "Título de acción de la extensión."
+  },
+  "popupLang": {
+    "message": "es",
+    "description": "Atributo HTML del idioma en la sección del encabezado."
+  },
+  "popupTitle": {
+    "message": "Emergente | AliExpress Mejorado",
+    "description": "El título HTML en la sección del encabezado."
+  },
+  "popupTitleBody": {
+    "message": "¡Bienvenido a AliExpress mejorado!",
+    "description": "El título HTML en la sección del cuerpo."
   }
 }
