@@ -10,7 +10,7 @@
     "name": "Israel Roldan",
     "url": "https://github.com/airvzxf/web-browser-extension-alienhanced"
   },
-  "default_locale": "en-US",
+  "default_locale": "en",
   "icons": {
     "16": "assets/media/icons/logo-16.png",
     "32": "assets/media/icons/logo-32.png",
