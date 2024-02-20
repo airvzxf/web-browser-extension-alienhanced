@@ -19,6 +19,9 @@
     "512": "assets/media/icons/logo-512.png",
     "1024": "assets/media/icons/logo-1024.png"
   },
+  "permissions": [
+    "storage"
+  ],
   "background": {
     "type": "module",
     "scripts": [
