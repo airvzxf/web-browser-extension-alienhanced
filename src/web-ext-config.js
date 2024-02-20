@@ -6,6 +6,6 @@ module.exports = {
         overwriteDest: true,
     },
     run: {
-        firefox: '/usr/bin/firefox-developer-edition',
+        firefox: 'firefoxdeveloperedition',
     },
 };
