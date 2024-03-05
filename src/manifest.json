@@ -26,7 +26,19 @@
     "1024": "assets/media/icons/logo-1024.png"
   },
   "permissions": [
-    "storage"
+    "storage",
+    "unlimitedStorage"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/content-scripts/modules/item.js",
+        "assets/scripts/modules/*"
+      ],
+      "matches": [
+        "https://*.aliexpress.com/*"
+      ]
+    }
   ],
   "background": {
     "type": "module",
@@ -53,7 +65,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.aliexpress.com/*"
+        "https://*.aliexpress.com/*"
       ],
       "js": [
         "assets/content-scripts/main.js"
